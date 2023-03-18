@@ -27,6 +27,7 @@ function setError(input, message) {
 
 function setSuccess(input) {
     const formControl = input.parentElement;
+    erroricon.style.display = "none";
     formControl.classList.remove('error');
 }
 
