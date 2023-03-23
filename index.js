@@ -15,6 +15,8 @@ const validatePassword = (password) => {
     return regex.test(password);
   }
 
+
+
 function setError(input, message) {
     const formControl = input.parentElement;
     const small = formControl.querySelector('small');
