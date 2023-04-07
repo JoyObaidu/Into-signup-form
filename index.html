@@ -9,50 +9,59 @@
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
 <body>
-   <div class="container" aria-label="main-content">
-    <div class="left">
-      <h2> Learn to code by watching others</h2>
-      <p> See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-        but understanding how developers think is invaluable. </p>
-    </div>
+   <main>
 
-    <div class="right" role="form" aria-labelledby="form-info">
-      <div class="info" id="form-info"> <b>Try it free 7 days</b> then $20/mo. thereafter</div>
+    <div class="container">
 
-      <form action="#">
-
-        <div class="form-control">
-          <input type="text" name="name" id="fname" placeholder=" First Name " aria-required="true">
-          <img src="./images/icon-error.svg" alt="icon-error" class="icon-error">
-          <small></small>
-         </div>
-
-        <div class="form-control">
-          <input type="text" name="name" id="lname" placeholder=" Last Name " aria-required="true">
-          <img src="./images/icon-error.svg" alt="icon-error" class="icon-error">
-          <small></small>
+      <article>
+        <div class="left">
+          <h2> Learn to code by watching others</h2>
+          <p> See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+            but understanding how developers think is invaluable. </p>
         </div>
+      </article>
 
-        <div class="form-control">
-          <input type="email" name="email" id="email" placeholder=" Email Address" aria-required="true">
-          <img src="./images/icon-error.svg" alt="icon-error" class="icon-error">
-          <small></small>
-        </div>
-
-        <div class="form-control">
-          <input type="password" name="password" id="password" placeholder=" Password" aria-required="true">
-          <img src="./images/icon-error.svg" alt="icon-error" class="icon-error">
-          <small></small>
-        </div>
-
-        <button type="submit" aria-pressed="true"> Claim your free trial</button>
-       <p class="reference">By clicking this button you accept our <a href="#">Terms and condition</a></p>
-      </form>    
+         <aside>
+        <!-- form div starts -->
+        <div class="right">
+          <div class="info" id="form-info"> <b>Try it free 7 days</b> then $20/mo. thereafter</div>
     
+          <form action="#">
+    
+            <div class="form-control">
+              <input type="text" name="name" id="fname" placeholder=" First Name " aria-required="true">
+              <img src="./images/icon-error.svg" alt="icon-error" class="icon-error">
+              <small></small>
+             </div>
+    
+            <div class="form-control">
+              <input type="text" name="name" id="lname" placeholder=" Last Name " aria-required="true">
+              <img src="./images/icon-error.svg" alt="icon-error" class="icon-error">
+              <small></small>
+            </div>
+    
+            <div class="form-control">
+              <input type="email" name="email" id="email" placeholder=" Email Address" aria-required="true">
+              <img src="./images/icon-error.svg" alt="icon-error" class="icon-error">
+              <small></small>
+            </div>
+    
+            <div class="form-control">
+              <input type="password" name="password" id="password" placeholder=" Password" aria-required="true">
+              <img src="./images/icon-error.svg" alt="icon-error" class="icon-error">
+              <small></small>
+            </div>
+    
+            <button type="submit" aria-pressed="true"> Claim your free trial</button>
+           <p class="reference">By clicking this button you accept our <a href="#">Terms and condition</a></p>
+          </form>     
+        </div>
+       <!-- form div ends -->
+      </aside>
+
+      
     </div>
-   </div>
- 
-  
+   </main>
   
   <footer>
     <p class="attribution">
